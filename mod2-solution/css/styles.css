@@ -1,0 +1,85 @@
+* {
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+h1 {
+	font-size: 1.75em;
+	text-align: center;
+	padding: 32px 0px;
+}
+
+.deliciousness {
+	padding: 0 10px;
+}
+
+.roll-name, .description {
+	border: 1px solid black;
+}
+
+.roll-name {
+	font-weight: bold;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	width: 40%;
+	text-align: center;
+	font-size: 1.25em;
+}
+
+.description {
+	padding: 32px 10px 10px;
+	background-color: hsl(161, 100%, 89%);
+}
+
+.sushi {
+	position: relative;
+	float: left;
+	padding: 10px;
+}
+
+#avo-cu {
+	background-color: hsl(128, 53%, 74%);
+}
+
+#salmon {
+	background-color: hsl(17, 100%, 74%);
+}
+
+#tuna {
+	background-color: hsl(349, 100%, 90%);
+}
+
+
+/***** Big screen *****/
+@media (min-width: 992px) {
+	.sushi {
+		width: 33.33%;
+	}
+}
+
+
+/***** Medium screen *****/
+@media (min-width: 768px) and (max-width: 991px) {
+	.sushi {
+		width: 50%;
+	}
+	
+	.sushi:last-child  {
+		width: 100%;
+		clear: left;
+	}
+	
+	#tuna {
+		width: 20%;
+	}
+}
+
+/***** Small screen *****/
+@media (min-width: 767px} {
+	.sushi {
+		width: 100%;
+	}
+}
