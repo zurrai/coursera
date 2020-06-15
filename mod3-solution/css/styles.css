@@ -5,6 +5,10 @@
 	/*font-family: "Trebuchet MS", Helvetica, sans-serif;*/
 }
 
+nav {
+	background-color: hsl(180, 59%, 80%)
+}
+
 h1 {
 	font-size: 1.75em;
 	padding: 32px 0px;
