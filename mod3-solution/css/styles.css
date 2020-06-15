@@ -11,8 +11,12 @@ h1 {
 	font-weight: bold;
 }
 
-.name, .description {
+.item-container p {
 	padding: 10px;
+}
+
+.item-container p:first-child {
+	padding-bottom: 0px;
 }
 
 .item {
